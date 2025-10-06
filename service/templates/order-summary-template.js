@@ -1,0 +1,110 @@
+const url = "https://api.svm.apps.org.in/";
+module.exports = function order_PROCESSED_TEMPLATE(order) {
+  return `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div
+        style="width: 70%; margin: 30px auto; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); padding: 40px 7%; min-height: 800px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+            <div style="display: flex; justify-content: space-between;">
+                <h2>Order Summary</h2>
+                <h4>Srivaru Motors — Building world class
+                    <br />
+                    Innovative Auto Mobiles
+                </h4>
+            </div>
+            <h1 style="margin-top: 50px;">Invoice</h1>
+            <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                <div style="display: flex;flex-direction: column; row-gap: 8px;">
+                    <p style="margin: 0;line-height: normal;">Raghavan</p>
+                    <p style="margin: 0;line-height: normal;">Email</p>
+                    <p style="margin: 0;line-height: normal;">Number</p>
+                    <p style="margin: 0;line-height: normal;">City</p>
+                    <p style="margin: 0;line-height: normal;">State</p>
+                </div>
+                <div style="display: flex;flex-direction: column; row-gap: 8px;">
+                    <h5 style="margin: 0;line-height: normal; font-size: 16px;">Ship To:</h5>
+                    <p style="margin: 0;line-height: normal;">Raghavan</p>
+                    <p style="margin: 0;line-height: normal;">City</p>
+                    <p style="margin: 0;line-height: normal;">State</p>
+                </div>
+                <div style="display: flex;flex-direction: column; row-gap: 8px;">
+                    <p style="margin: 0;line-height: normal;">Invoice Number:</p>
+                    <p style="margin: 0;line-height: normal;">Invoice Date:</p>
+                    <p style="margin: 0;line-height: normal;">Order Number:</p>
+                    <p style="margin: 0;line-height: normal;">Order Date:</p>
+                    <p style="margin: 0;line-height: normal;">Payment Method:</p>
+                </div>
+                <div style="display: flex;flex-direction: column; row-gap: 8px;">
+                    <p style="margin: 0;line-height: normal;">167</p>
+                    <p style="margin: 0;line-height: normal;">01-01-2020</p>
+                    <p style="margin: 0;line-height: normal;">167</p>
+                    <p style="margin: 0;line-height: normal;">01-01-2020</p>
+                    <p style="margin: 0;line-height: normal;">paytm</p>
+                </div>
+            </div>
+            <table style="margin-top: 30px; width: 100%; border-collapse: collapse;">
+                <tr style="text-align: left; background-color: #000000;  height: 40px;">
+                    <th style="width: 65%; color: #ffffff; padding-left : 10px  ;">Product</th>
+                    <th style="width: 15%; color: #ffffff; padding-left: 10px  ;">Quantity</th>
+                    <th style="width: 20%; color: #ffffff; padding-left: 10px  ;">Price</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #d3d3d3;">
+                    <td style="min-height: 40px; padding: 5px 10px; vertical-align: top; font-size: 17px;">
+                        Prana Grand
+                        <div
+                            style="padding-left: 10px; margin: 10px 0 15px; display: flex; flex-direction: column; row-gap: 5px;">
+                            <p style="margin: 0;line-height: normal;font-size: 13px;"><b>Color:</b> White</p>
+                            <p style="margin: 0;line-height: normal;font-size: 13px;"><b>DealerName:</b> SVM KOVAI -
+                                EAST
+                            </p>
+                            <p style="margin: 0;line-height: normal;font-size: 13px;"><b>DealerId:</b>1531</p>
+                            <p style="margin: 0;line-height: normal;font-size: 13px;"><b>Order Type:</b>Regular </p>
+                        </div>
+                    </td>
+                    <td style="min-height: 40px; padding: 5px 10px; vertical-align: top; font-size: 17px;">1</td>
+                    <td style="min-height: 40px; padding: 5px 10px; vertical-align: top; font-size: 17px;">₹
+                        1,999.00
+                    </td>
+                </tr>
+                <tr style=" height: 20px;">
+                    <td> </td>
+                    <td style="border-bottom: 1px solid #d3d3d3;" colspan="2"></td>
+                </tr>
+                <tr style=" height: 40px;">
+                    <td> </td>
+                    <td style="border-bottom: 2px solid #000000; font-size: 16px; font-weight: 600;">
+                        Subtotal
+                    </td>
+                    <td style="border-bottom: 2px solid #000000;">
+                        ₹ 1,999.00
+                    </td>
+                </tr>
+                <tr style=" height: 40px;">
+                    <td> </td>
+                    <td style="border-bottom: 2px solid #000000; font-size: 16px; font-weight: 600;">
+                        Total
+                    </td>
+                    <td style="border-bottom: 2px solid #000000;">
+                        ₹ 1,999.00
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="margin-top: 10px; border-top: 1px solid #000000;">
+            <p style="text-align: center; margin-top: 15px;">*** This is computer generated signature is not required
+                ***
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>`;
+};

@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "ObjectId(\"6630a0ff76c436edacd424a2\")",
+    "vehicle": "ICE",
+    "manufacturer": "Bajaj",
+    "model": "KTM RC125",
+    "vehicleClass": "Sports",
+    "topSpeed": 120,
+    "acceleration": "4.3",
+    "releaseDate": ">10 YRS",
+    "acquisition": {
+      "cost": 133049,
+      "GST": 37253.72,
+      "totalCost": 170302.72
+    },
+    "financing": {
+      "totalCostInclGst": 170302.72,
+      "downPayment": 34060.54,
+      "residual": 0,
+      "amountToFinance": 136242.18,
+      "annualPMT": 58683.8
+    },
+    "operatingCosts": {
+      "range": 40,
+      "chargingTime": 0,
+      "kWhOrLitres": 600,
+      "fuel": 61860,
+      "maintenance": 5000,
+      "totalTCOpA": 125543.8,
+      "totalTCO": 376631.4
+    },
+    "createdAt": "2024-04-30T07:42:55.976Z",
+    "updatedAt": "2024-04-30T07:42:55.976Z",
+    "__v": 0
+  }
+]
